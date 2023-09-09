@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    width: 60vw;
+    height: 60vh;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.box{
+    width: 30%;
+    height: 30%;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-inline: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.xstyle{
+    width: 30%;
+    position: absolute;
+    display: none;
+}
+
+.ostyle{
+    width: 40%;
+    position: absolute;
+    display: none;
+}
+
+
